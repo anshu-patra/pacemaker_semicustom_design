@@ -430,10 +430,14 @@ Contact: [patraanhu246@gmail.com]
 
 🙏 **Acknowledgments**
 
-IIITK VLSI Lab for infrastructure and tool access
+IIITK VLSI Lab and C2S program for infrastructure and tool access
+
 Cadence Design Systems for EDA tools
+
 TSMC for 180nm technology library
+
 Inspired by bio-inspired computing and cardiac physiology research
+
 
 
 📸 **Gallery**
