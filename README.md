@@ -184,7 +184,7 @@ GDSII Generation
 
 ### 1. **Floorplan**
 
-![Floorplan](image1.png)
+
 
 *Initial floorplan showing core area with power grid structure*
 
@@ -211,7 +211,7 @@ GDSII Generation
 
 ### 3. **Placement**
 
-![Placement View](image1.png)
+
 
 *Standard cell placement after timing-driven optimization*
 
@@ -223,7 +223,7 @@ GDSII Generation
 
 ### 4. **Routing**
 
-![Detailed Routing](image3.png)
+
 
 *Completed routing with all metal layers*
 
@@ -247,7 +247,7 @@ GDSII Generation
 
 ### 5. **Layout Hierarchy**
 
-![Hierarchical Layout](image5.png)
+
 
 *Hierarchical view showing module boundaries and interconnections*
 
@@ -257,7 +257,7 @@ GDSII Generation
 
 ### Setup Timing (Pre-CTS)
 
-![Setup Timing Report](image2.png)
+
 
 | Path Group | WNS (ns) | TNS (ns) | Violating Paths |
 |------------|----------|----------|-----------------|
@@ -293,9 +293,12 @@ GDSII Generation
 
 ## 📊 Simulation Results
 
-### Functional Simulation
+### Functional Simulation and the netlist circuit 
 
-![SimVision Waveforms](image4.png)
+![output_waveform](https://github.com/user-attachments/assets/0cbfaef9-beff-4cd3-a7fa-85a29b9b46a8)
+![netflist_circuit](https://github.com/user-attachments/assets/a4efd89f-5130-46a2-9035-fccf933e1cbc)
+
+
 
 *Functional verification showing CLK, LED_HEART (detector spikes), LED_PACE (pacing pulses), and RSTn signals over 20µs simulation*
 
@@ -384,3 +387,33 @@ Routing Congestion: ✅ 0% overflow
 Power Grid: ✅ IR drop < 5%
 Signal Integrity: ✅ SI-aware routing enabled
 Manufacturability: ✅ DRC/LVS clean
+
+
+🔮 **Future Enhancements**
+
+**Advanced Features**:
+
+Multi-rate adaptive pacing (AAI, VVI, DDD modes)
+Rate-responsive pacing based on activity sensors
+Atrial sensing and dual-chamber pacing
+
+
+**Optimization**:
+
+Power optimization (clock gating, multi-Vt cells)
+Area reduction through logic sharing
+Advanced node porting (65nm/28nm)
+
+
+**Verification**:
+
+UVM-based testbench for comprehensive coverage
+Formal verification of safety-critical paths
+Post-silicon validation plan
+
+**
+System Integration**:
+
+ADC interface for real physiological signals
+Wireless telemetry for parameter programming
+Battery management and low-power modes
