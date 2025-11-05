@@ -296,9 +296,21 @@ GDSII Generation
 
 ## 📊 Simulation Results
 
-### Functional Simulation  
+### Functional Simulation 
+
+**output wave form when the heart beat is normal**
 
 ![output_waveform](https://github.com/user-attachments/assets/0cbfaef9-beff-4cd3-a7fa-85a29b9b46a8)
+
+
+**output wave form when the heart stops beating for a longer time**
+
+
+<img width="1826" height="127" alt="image" src="https://github.com/user-attachments/assets/d1ee50b7-31aa-4f41-af90-f76a84ca14cb" />
+
+
+for faster simulation here the lower heaart rate bpm is kept at 3000. 
+
 
 
 
