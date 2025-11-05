@@ -44,6 +44,32 @@ The pacemaker system consists of three main functional blocks:
 
 <img width="726" height="310" alt="image" src="https://github.com/user-attachments/assets/3e58a947-3647-4fb7-bcf7-d51aee2393c8" />
 
+
+        ┌──────────┐
+ CLK →──┤ top      │
+ RSTn →─┤          │
+        │          │
+        │ ┌────────┴────────┐
+        │ │   ecg_rom       │
+        │ │  (internal ECG) │
+        │ └─────┬───────────┘
+        │       │ ecg_sample (12-bit)
+        │ ┌──────▼────────┐
+        │ │ adaptive_lif  │
+        │ │  (neuron)     │
+        │ └──────┬────────┘
+        │ spike  │
+        │ ┌──────▼────────┐
+        │ │ pacemaker_ctrl│
+        │ │ (controller)  │
+        │ └──────┬────────┘
+        │ pace   │
+        └────────┼─────────────┘
+                 │
+                 ├── LED_HEART (neuron output)
+                 └── LED_PACE  (pacemaker output)
+
+
              
 
 
