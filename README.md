@@ -42,16 +42,10 @@ Leaky Integrate-and-Fire (LIF) neuron model for intelligent cardiac event detect
  # Architecture
 The pacemaker system consists of three main functional blocks:
 
+<img width="726" height="310" alt="image" src="https://github.com/user-attachments/assets/3e58a947-3647-4fb7-bcf7-d51aee2393c8" />
 
+             
 
-┌─────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│  ECG ROM    │────▶│  Adaptive LIF    │────▶│  Pacemaker     │
-│  (Samples)  │     │  (QRS Detection) │     │  Control Logic  │
-└─────────────┘     └──────────────────┘     └─────────────────┘
-                            │                         │
-                            ▼                         ▼
-                      LED_HEART                  LED_PACE
-```
 
 ### Block Diagram
 The system operates at a configurable sample rate (default 1000 Hz) and processes simulated ECG signals through an adaptive detection mechanism.
