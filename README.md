@@ -402,8 +402,6 @@ Battery management and low-power modes
 
 **Cardiac Pacing**: Ellenbogen, K. A., et al. (2016). Clinical Cardiac Pacing, Defibrillation and Resynchronization Therapy. Elsevier.
 
-**ASIC Design**: Weste, N., & Harris, D. (2015). CMOS VLSI Design: A Circuits and Systems Perspective. Pearson.
-
 
 **Cadence Documentation**:
 
@@ -411,7 +409,7 @@ Genus Synthesis User Guide
 
 Innovus Implementation System User Guide
 
-Tempus Timing Signoff Solution User Guide
+
 
 
 
