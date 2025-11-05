@@ -278,7 +278,7 @@ GDSII Generation
 | **reg2reg** | -0.230 | -3.126 | 64 |
 | **default** | +0.676 | 0.000 | 0 |
 
-**Note**: Hold violations were addressed through post-route optimization with buffer insertion and cell resizing.
+**Note**: Hold violations were addressed through post-route optimization shoul be done with buffer insertion and cell resizing.
 
 ### Design Rule Checks (DRCs)
 
@@ -293,10 +293,10 @@ GDSII Generation
 
 ## 📊 Simulation Results
 
-### Functional Simulation and the netlist circuit 
+### Functional Simulation  
 
 ![output_waveform](https://github.com/user-attachments/assets/0cbfaef9-beff-4cd3-a7fa-85a29b9b46a8)
-![netflist_circuit](https://github.com/user-attachments/assets/a4efd89f-5130-46a2-9035-fccf933e1cbc)
+
 
 
 
@@ -342,36 +342,8 @@ GDSII Generation
 
 ---
 
-## 📁 File Structure
-```
-pacemaker-asic/
-├── rtl/
-│   ├── pacemaker.v          # Top-level RTL
-│   └── testbench.v           # Testbench
-├── synthesis/
-│   ├── run.tcl               # Genus synthesis script
-│   └── genus.log             # Synthesis log
-├── pnr/
-│   ├── innovus.tcl           # Innovus P&R script
-│   ├── innovus.log           # P&R log
-│   └── Default.view          # Multi-corner setup
-├── constraints/
-│   └── pacemaker_constraints.sdc  # Timing constraints
-├── outputs/
-│   ├── pacemaker_netlist_180nm.v  # Gate-level netlist
-│   ├── pacemaker_180nm.sdf        # Standard Delay Format
-│   └── pacemaker_180nm.db         # Design database
-├── reports/
-│   ├── pacemaker_timing_180nm.rpt
-│   ├── pacemaker_power_180nm.rpt
-│   ├── pacemaker_area_180nm.rpt
-│   └── pacemaker_qor_180nm.rpt
-├── simulation/
-│   ├── ncvlog.log
-│   ├── ncelab.log
-│   ├── ncsim.log
-│   └── testbench.vcd
-└── README.md
+
+
 
 
 **Performance Metrics**
@@ -391,28 +363,28 @@ Manufacturability: ✅ DRC/LVS clean
 
 
 ## Future Enhancements
-Advanced Features:
+**Advanced Features**:
 
 Multi-rate adaptive pacing (AAI, VVI, DDD modes)
 Rate-responsive pacing based on activity sensors
 Atrial sensing and dual-chamber pacing
 
 
-Optimization:
+**Optimization**:
 
 Power optimization (clock gating, multi-Vt cells)
 Area reduction through logic sharing
 Advanced node porting (65nm/28nm)
 
 
-Verification:
+**Verification**:
 
 UVM-based testbench for comprehensive coverage
 Formal verification of safety-critical paths
 Post-silicon validation plan
 
 
-System Integration:
+**System Integration**:
 
 ADC interface for real physiological signals
 Wireless telemetry for parameter programming
@@ -421,12 +393,14 @@ Battery management and low-power modes
 
 
 
-📚 References
+📚 **References**
 
-LIF Neuron Models: Gerstner, W., & Kistler, W. M. (2002). Spiking Neuron Models. Cambridge University Press.
-Cardiac Pacing: Ellenbogen, K. A., et al. (2016). Clinical Cardiac Pacing, Defibrillation and Resynchronization Therapy. Elsevier.
-ASIC Design: Weste, N., & Harris, D. (2015). CMOS VLSI Design: A Circuits and Systems Perspective. Pearson.
-Cadence Documentation:
+**LIF Neuron Models**: Gerstner, W., & Kistler, W. M. (2002). Spiking Neuron Models. Cambridge University Press.
+**Cardiac Pacing**: Ellenbogen, K. A., et al. (2016). Clinical Cardiac Pacing, Defibrillation and Resynchronization Therapy. Elsevier.
+**ASIC Design**: Weste, N., & Harris, D. (2015). CMOS VLSI Design: A Circuits and Systems Perspective. Pearson.
+
+
+**Cadence Documentation**:
 
 Genus Synthesis User Guide
 Innovus Implementation System User Guide
@@ -435,16 +409,16 @@ Tempus Timing Signoff Solution User Guide
 
 
 
-📄 License
+📄 **License**
 This project is for educational and research purposes. TSMC 180nm PDK usage subject to foundry license agreements.
 
-👨‍💻 Author
-Your Name
+👨‍💻 **Author**
+Anshu Patra
 VLSI Design Project
 Institution: IIITK
-Contact: [Your Email/GitHub Profile]
+Contact: [patraanhu246@gmail.com]
 
-🙏 Acknowledgments
+🙏 **Acknowledgments**
 
 IIITK VLSI Lab for infrastructure and tool access
 Cadence Design Systems for EDA tools
@@ -452,9 +426,17 @@ TSMC for 180nm technology library
 Inspired by bio-inspired computing and cardiac physiology research
 
 
-📸 Gallery
-Design Progression
-StageDescriptionShow ImageInitial floorplan with power gridShow ImageCell placement optimizationShow ImageCompleted multi-layer routingShow ImageDesign hierarchy visualizationShow ImageFunctional simulation waveformsShow ImageTiming analysis summary
+📸 **Gallery**
+1. **netlist circuit**
+![netflist_circuit](https://github.com/user-attachments/assets/a4efd89f-5130-46a2-9035-fccf933e1cbc)
+
+2. **3D view** 
+<img width="609" height="503" alt="3DSnapShot" src="https://github.com/user-attachments/assets/4fbaf31a-21df-44e3-8661-9b3f88b68803" />
+
+3. **final design off the pacemaker**
+   <img width="721" height="664" alt="Screenshot from 2025-11-03 11-16-09" src="https://github.com/user-attachments/assets/434ee755-db76-48fa-a57b-b55bb5a6f8c2" />
+
+
 
 ⭐ If you found this project useful, please star the repository!
 🐛 Issues and Pull Requests are welcome!
