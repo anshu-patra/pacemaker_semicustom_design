@@ -430,11 +430,24 @@ Inspired by bio-inspired computing and cardiac physiology research
 1. **netlist circuit**
 ![netflist_circuit](https://github.com/user-attachments/assets/a4efd89f-5130-46a2-9035-fccf933e1cbc)
 
-2. **3D view** 
+
+
+
+3. **3D view**
+
+
 <img width="609" height="503" alt="3DSnapShot" src="https://github.com/user-attachments/assets/4fbaf31a-21df-44e3-8661-9b3f88b68803" />
 
+
+
+
 3. **final design off the pacemaker**
-   <img width="721" height="664" alt="Screenshot from 2025-11-03 11-16-09" src="https://github.com/user-attachments/assets/434ee755-db76-48fa-a57b-b55bb5a6f8c2" />
+
+
+<img width="609" height="503" alt="Screenshot from 2025-11-03 11-16-09" src="https://github.com/user-attachments/assets/434ee755-db76-48fa-a57b-b55bb5a6f8c2" />
+
+
+
 
 
 
