@@ -298,6 +298,29 @@ GDSII Generation
 
 ### Functional Simulation 
 
+**adaptive threholding python code output for understanding proper functionality of how the pacemaker is working**
+
+<img width="1669" height="452" alt="image" src="https://github.com/user-attachments/assets/bfc61d76-5a4a-4a9f-abc2-141615fa4406" />
+
+
+<img width="1669" height="452" alt="image" src="https://github.com/user-attachments/assets/60d4dc9f-8d90-4ce9-919f-d7ab3d7f15be" />
+
+
+<img width="1669" height="452" alt="image" src="https://github.com/user-attachments/assets/1419c75c-90ef-4413-b893-fc69db8c0d7f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **output wave form when the heart beat is normal**
 
 ![output_waveform](https://github.com/user-attachments/assets/0cbfaef9-beff-4cd3-a7fa-85a29b9b46a8)
