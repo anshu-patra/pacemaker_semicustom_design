@@ -389,31 +389,74 @@ Signal Integrity: ✅ SI-aware routing enabled
 Manufacturability: ✅ DRC/LVS clean
 
 
-🔮 **Future Enhancements**
 
-**Advanced Features**:
+## Future Enhancements
+Advanced Features:
 
 Multi-rate adaptive pacing (AAI, VVI, DDD modes)
 Rate-responsive pacing based on activity sensors
 Atrial sensing and dual-chamber pacing
 
 
-**Optimization**:
+Optimization:
 
 Power optimization (clock gating, multi-Vt cells)
 Area reduction through logic sharing
 Advanced node porting (65nm/28nm)
 
 
-**Verification**:
+Verification:
 
 UVM-based testbench for comprehensive coverage
 Formal verification of safety-critical paths
 Post-silicon validation plan
 
-**
-System Integration**:
+
+System Integration:
 
 ADC interface for real physiological signals
 Wireless telemetry for parameter programming
 Battery management and low-power modes
+
+
+
+
+📚 References
+
+LIF Neuron Models: Gerstner, W., & Kistler, W. M. (2002). Spiking Neuron Models. Cambridge University Press.
+Cardiac Pacing: Ellenbogen, K. A., et al. (2016). Clinical Cardiac Pacing, Defibrillation and Resynchronization Therapy. Elsevier.
+ASIC Design: Weste, N., & Harris, D. (2015). CMOS VLSI Design: A Circuits and Systems Perspective. Pearson.
+Cadence Documentation:
+
+Genus Synthesis User Guide
+Innovus Implementation System User Guide
+Tempus Timing Signoff Solution User Guide
+
+
+
+
+📄 License
+This project is for educational and research purposes. TSMC 180nm PDK usage subject to foundry license agreements.
+
+👨‍💻 Author
+Your Name
+VLSI Design Project
+Institution: IIITK
+Contact: [Your Email/GitHub Profile]
+
+🙏 Acknowledgments
+
+IIITK VLSI Lab for infrastructure and tool access
+Cadence Design Systems for EDA tools
+TSMC for 180nm technology library
+Inspired by bio-inspired computing and cardiac physiology research
+
+
+📸 Gallery
+Design Progression
+StageDescriptionShow ImageInitial floorplan with power gridShow ImageCell placement optimizationShow ImageCompleted multi-layer routingShow ImageDesign hierarchy visualizationShow ImageFunctional simulation waveformsShow ImageTiming analysis summary
+
+⭐ If you found this project useful, please star the repository!
+🐛 Issues and Pull Requests are welcome!
+
+Last Updated: November 2025RetryClaude can make mistakes. Please double-check responses. 
