@@ -45,29 +45,6 @@ The pacemaker system consists of three main functional blocks:
 <img width="726" height="310" alt="image" src="https://github.com/user-attachments/assets/3e58a947-3647-4fb7-bcf7-d51aee2393c8" />
 
 
-        ┌──────────┐
- CLK →──┤ top      │
- RSTn →─┤          │
-        │          │
-        │ ┌────────┴────────┐
-        │ │   ecg_rom       │
-        │ │  (internal ECG) │
-        │ └─────┬───────────┘
-        │       │ ecg_sample (12-bit)
-        │ ┌──────▼────────┐
-        │ │ adaptive_lif  │
-        │ │  (neuron)     │
-        │ └──────┬────────┘
-        │ spike  │
-        │ ┌──────▼────────┐
-        │ │ pacemaker_ctrl│
-        │ │ (controller)  │
-        │ └──────┬────────┘
-        │ pace   │
-        └────────┼─────────────┘
-                 │
-                 ├── LED_HEART (neuron output)
-                 └── LED_PACE  (pacemaker output)
 
 
              
@@ -422,26 +399,35 @@ Battery management and low-power modes
 📚 **References**
 
 **LIF Neuron Models**: Gerstner, W., & Kistler, W. M. (2002). Spiking Neuron Models. Cambridge University Press.
+
 **Cardiac Pacing**: Ellenbogen, K. A., et al. (2016). Clinical Cardiac Pacing, Defibrillation and Resynchronization Therapy. Elsevier.
+
 **ASIC Design**: Weste, N., & Harris, D. (2015). CMOS VLSI Design: A Circuits and Systems Perspective. Pearson.
 
 
 **Cadence Documentation**:
 
 Genus Synthesis User Guide
+
 Innovus Implementation System User Guide
+
 Tempus Timing Signoff Solution User Guide
 
 
 
 
 📄 **License**
+
 This project is for educational and research purposes. TSMC 180nm PDK usage subject to foundry license agreements.
 
 👨‍💻 **Author**
+
 Anshu Patra
+
 VLSI Design Project
+
 Institution: IIITK
+
 Contact: [patraanhu246@gmail.com]
 
 🙏 **Acknowledgments**
